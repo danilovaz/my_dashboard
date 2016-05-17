@@ -17,5 +17,7 @@
 //= require moment.min
 //= require d3-3.2.8.min
 //= require rickshaw-1.5.1.min
+//= require batman
+//= require batman.jquery
 //= require es5-shim
 //= require my_dashboard
