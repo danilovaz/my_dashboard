@@ -1,3 +1,7 @@
+## 0.7.1 (05/17/2016)
+
+* Enables grid margins generate
+
 ## 0.7.0 (05/17/2016)
 
 * Enable responsive option
