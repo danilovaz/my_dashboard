@@ -1,3 +1,7 @@
+## 0.5.9 (05/17/2016)
+
+* Fix file name coffe
+
 ## 0.5.8 (05/17/2016)
 
 * Rename my_dashboard.coffee
