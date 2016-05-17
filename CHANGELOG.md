@@ -1,3 +1,7 @@
+## 0.5.10 (05/17/2016)
+
+* Revert flexbox for better refact
+
 ## 0.5.9 (05/17/2016)
 
 * Fix file name coffe
