@@ -1,3 +1,7 @@
+## 0.5.8 (05/17/2016)
+
+* Rename my_dashboard.coffee
+
 ## 0.5.7 (05/17/2016)
 
 * Fix gridster dependency
