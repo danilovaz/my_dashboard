@@ -1,3 +1,7 @@
+## 0.5.1 (05/17/2016)
+
+* Fix problem with my_dashboard generator batmanjs integration
+
 ## 0.5.0 (05/17/2016)
 
 * Add Batman.js for generate templates
