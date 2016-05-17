@@ -1,3 +1,7 @@
+## 0.5.3 (05/17/2016)
+
+* Fix sample file generator
+
 ## 0.5.2 (05/17/2016)
 
 * Fix require gem error
