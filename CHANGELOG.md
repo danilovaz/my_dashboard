@@ -1,3 +1,7 @@
+## 0.4.2 (05/17/2016)
+
+* Fix error with content_for method
+
 ## 0.4.1 (05/17/2016)
 
 * Add FlexBox support
