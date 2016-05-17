@@ -1,6 +1,10 @@
 require 'spec_helper'
 require 'generator_spec'
 require 'generators/my_dashboard/widget_generator'
+require 'codeclimate-test-reporter'
+require 'coveralls'
+CodeClimate::TestReporter.start
+Coveralls.wear!
 
 describe MyDashboard::Generators::WidgetGenerator do
 
