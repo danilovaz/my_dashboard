@@ -1,3 +1,7 @@
+## 0.5.7 (05/17/2016)
+
+* Fix gridster dependency
+
 ## 0.5.6 (05/17/2016)
 
 * Fix render dashboard
