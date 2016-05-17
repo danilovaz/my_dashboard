@@ -1,3 +1,7 @@
+## 0.5.4 (05/17/2016)
+
+* Fix specification warning rubygems http://guides.rubygems.org/specification-reference/
+
 ## 0.5.3 (05/17/2016)
 
 * Fix sample file generator
