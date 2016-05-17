@@ -1,3 +1,8 @@
+## 0.4.1 (05/17/2016)
+
+* Add FlexBox support
+* Removes Batman.js
+
 ## 0.3.1 (05/17/2016)
 
 * Add Code Climate integration
