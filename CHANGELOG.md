@@ -1,3 +1,7 @@
+## 0.5.0 (05/17/2016)
+
+* Add Batman.js for generate templates
+
 ## 0.4.2 (05/17/2016)
 
 * Fix error with content_for method
