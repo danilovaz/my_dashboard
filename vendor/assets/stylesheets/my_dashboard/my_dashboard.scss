@@ -6,7 +6,7 @@ $text-color: #fff;
 
 $background-warning-color-1: #e82711;
 $background-warning-color-2: #9b2d23;
-$text-warning-color: #DFE0D4;
+$text-warning-color: #fff;
 
 $background-danger-color-1: #eeae32;
 $background-danger-color-2: #ff9618;
@@ -108,92 +108,21 @@ h3 {
 // ----------------------------------------------------------------------------
 // Base widget styles
 // ----------------------------------------------------------------------------
-#container,
-.gridster,
-.gridster > ul {
-  display: flex;
-}
-
-#container {
-  justify-content: center;
-}
-
-.gridster > ul {
-  // align-items: stretch;
-  // align-content: space-between;
-  // justify-content: stretch;
-  // display: flex;
-  // flex-wrap: wrap;
-  align-items: stretch;
-  align-content: space-between;
-  justify-content: flex-start;
-  display: flex;
-  flex-wrap: wrap;
-  flex: 12;
-}
-
-.gridster  > ul > .gs-w {
-  z-index: 2;
-  display: flex;
-  max-width: 320px;
-  height: auto;
-  width: 320px;
-  padding-bottom: 20px;
-  justify-content: space-around;
-  align-content: space-around;
-}
-
-.gridster > ul > li > .widget {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  width: 95%;
-  justify-content: space-around;
-  align-content: space-around;
-}
-
-.gridster > ul > li > .widget > .more-info,
-.gridster > ul > li > .widget > .updated-at {
-    font-size: 15px;
-    font-weight: bold;
-    font-family: Arial;
-}
-
-.widget {
-  background-image: url("https://www.mlabs.com.br/assets/blocos.png");
-}
-
-.gs-w > .widget-number {
-  background-color: #353940;
-}
-
-.gs-w > .widget-number > .value,
-.gs-w > .widget-number > .change-rate,
-.widget-number > h1.title,
-.gridster > ul > li > .widget > .more-info,
-.gridster > ul > li > .widget > .updated-at  {
-  color: $text-warning-color;
-}
-
-.gs-w > .widget-list {
-  background-color: #6E60A0;
-}
-
-.widget-number > h1.title {
-  font-size: 20px;
-  text-transform: uppercase;
-}
-
-.change-rate > .fa-arrow-down {
-  color: #FF5335;
-}
-
-.change-rate > .fa-arrow-up {
-  color: #5DAE8B;
+.gridster {
+  margin: 0px auto;
 }
 
 .icon-background {
-
+  pointer-events: none;
+  width: 100%!important;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0.1;
+  font-size: 275px;
+  text-align: center;
+  margin-top: 82px;
 }
 
 .list-nostyle {
@@ -205,11 +134,17 @@ h3 {
 }
 
 .gs_w {
+  width: 100%;
+  display: table;
   cursor: pointer;
 }
 
 .widget {
-
+  text-align: center;
+  width: inherit;
+  height: inherit;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .widget.status-warning {
@@ -237,6 +172,22 @@ h3 {
   .title, .more-info {
     color: $text-danger-color;
   }
+}
+
+.more-info {
+  font-size: 15px;
+  position: absolute;
+  bottom: 32px;
+  left: 0;
+  right: 0;
+}
+
+.updated-at {
+  font-size: 15px;
+  position: absolute;
+  bottom: 12px;
+  left: 0;
+  right: 0;
 }
 
 #save-gridster {
