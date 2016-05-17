@@ -1,3 +1,7 @@
+## 0.7.0 (05/17/2016)
+
+* Enable responsive option
+
 ## 0.6.0 (05/17/2016)
 
 * Update version gridster.js and gridster.css
