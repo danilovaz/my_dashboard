@@ -10,8 +10,8 @@ MyDashboard.on 'ready', ->
   Batman.setImmediate ->
     $('.gridster').width(contentWidth)
     $('.gridster ul:first').gridster
-      widget_margins: [5, 5]
-      widget_base_dimensions: ['auto', 140]
+      widget_margins: MyDashboard.widget_margins
+      widget_base_dimensions: MyDashboard.widget_base_dimensions
       autogenerate_stylesheet: true
       min_cols: 1
       max_cols: 6
