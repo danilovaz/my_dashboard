@@ -1,3 +1,7 @@
+## 0.5.5 (05/17/2016)
+
+* Fix call request error
+
 ## 0.5.4 (05/17/2016)
 
 * Fix specification warning rubygems http://guides.rubygems.org/specification-reference/
