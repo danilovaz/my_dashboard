@@ -1,7 +1,9 @@
 # my_dashboard
 
+[![Gem Version](https://badge.fury.io/rb/my_dashboard.svg)](https://badge.fury.io/rb/my_dashboard)
 [![Issue Count](https://codeclimate.com/github/danilovaz/my_dashboard/badges/issue_count.svg)](https://codeclimate.com/github/danilovaz/my_dashboard)
-[![Code Climate](https://codeclimate.com/github/danilovaz/my_dashboard/badges/gpa.svg)](https://codeclimate.com/github/danilovaz/my_dashboard)[![Coverage Status](https://coveralls.io/repos/github/danilovaz/my_dashboard/badge.svg?branch=master)](https://coveralls.io/github/danilovaz/my_dashboard?branch=master)
+[![Code Climate](https://codeclimate.com/github/danilovaz/my_dashboard/badges/gpa.svg)](https://codeclimate.com/github/danilovaz/my_dashboard)
+[![Coverage Status](https://coveralls.io/repos/github/danilovaz/my_dashboard/badge.svg?branch=master)](https://coveralls.io/github/danilovaz/my_dashboard?branch=master)
 [![Build Status](https://travis-ci.org/danilovaz/my_dashboard.svg?branch=master)](https://travis-ci.org/danilovaz/my_dashboard)
 [![Dependency Status](https://gemnasium.com/badges/github.com/danilovaz/my_dashboard.svg)](https://gemnasium.com/github.com/danilovaz/my_dashboard)
 
