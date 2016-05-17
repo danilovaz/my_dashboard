@@ -21,4 +21,4 @@
 //= require batman
 //= require batman.jquery
 //= require es5-shim
-//= require my_dashboard
+//= require my_dashboard-src
