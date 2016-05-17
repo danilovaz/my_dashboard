@@ -1,6 +1,10 @@
+## 0.7.2 (05/17/2016)
+
+* Fix bugs with grid
+
 ## 0.7.1 (05/17/2016)
 
-* Enables grid margins generate
+* Fix grid margins generate
 
 ## 0.7.0 (05/17/2016)
 
