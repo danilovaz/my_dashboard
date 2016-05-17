@@ -1,3 +1,10 @@
+## 0.3.1 (05/17/2016)
+
+* Add Code Climate integration
+* Add Travis CI integration
+* Add Coveralls integration
+* Fix bug method Configuration doesn't load
+
 ## 0.2.1 (05/16/2016)
 
 * Fix broken parameter .gemspec
