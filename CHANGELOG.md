@@ -1,3 +1,7 @@
+## 0.5.2 (05/17/2016)
+
+* Fix require gem error
+
 ## 0.5.1 (05/17/2016)
 
 * Fix problem with my_dashboard generator batmanjs integration
