@@ -1,3 +1,7 @@
+## 0.6.0 (05/17/2016)
+
+* Update version gridster.js and gridster.css
+
 ## 0.5.10 (05/17/2016)
 
 * Revert flexbox for better refact
