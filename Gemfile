@@ -16,4 +16,5 @@ group :test, :development do
   gem 'simplecov', require: false
   gem 'coveralls', require: false
   gem 'generator_spec', require: false
+  gem 'codeclimate-test-reporter', require: false
 end
