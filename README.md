@@ -1,9 +1,9 @@
 # my_dashboard
 
-[![Code Climate](https://codeclimate.com/github/danilovaz/my_dashboard.png)](https://codeclimate.com/github/danilovaz/my_dashboard)
-[![Coverage Status](https://coveralls.io/repos/danilovaz/my_dashboard/badge.png?branch=master)](https://coveralls.io/r/danilovaz/my_dashboard?branch=master)
-[![Build Status](https://travis-ci.org/danilovaz/my_dashboard.png?branch=master)](https://travis-ci.org/danilovaz/my_dashboard)
-[![Dependency Status](https://gemnasium.com/danilovaz/my_dashboard.svg)](https://gemnasium.com/danilovaz/my_dashboard)
+[![Issue Count](https://codeclimate.com/github/danilovaz/my_dashboard/badges/issue_count.svg)](https://codeclimate.com/github/danilovaz/my_dashboard)
+[![Code Climate](https://codeclimate.com/github/danilovaz/my_dashboard/badges/gpa.svg)](https://codeclimate.com/github/danilovaz/my_dashboard)[![Coverage Status](https://coveralls.io/repos/github/danilovaz/my_dashboard/badge.svg?branch=master)](https://coveralls.io/github/danilovaz/my_dashboard?branch=master)
+[![Build Status](https://travis-ci.org/danilovaz/my_dashboard.svg?branch=master)](https://travis-ci.org/danilovaz/my_dashboard)
+[![Dependency Status](https://gemnasium.com/badges/github.com/danilovaz/my_dashboard.svg)](https://gemnasium.com/github.com/danilovaz/my_dashboard)
 
 my_dashboard is the Rails Engine version of [Dashing by Shopify](http://shopify.github.io/dashing/) who **uses flexbox** instead [gridster](http://gridster.net/). This is totally inspired by [Dashing-Rails](https://github.com/gottfrois/dashing-rails).
 A huge thanks to Shopify and [Pierre-Louis Gottfrois](https://github.com/gottfrois) for their great work.
