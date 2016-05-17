@@ -6,7 +6,7 @@ require 'my_dashboard/version'
 Gem::Specification.new do |spec|
   spec.name         = 'my_dashboard'
   spec.version      = MyDashboard::VERSION
-  spec.version      = Gem::Platform::RUBY
+  spec.platform      = Gem::Platform::RUBY
   spec.authors      = ['Danilo Vaz']
   spec.email        = ['danilo.vaz@mlabs.com.br']
   spec.description  = 'Generate awesome widgets dashboard for Rails with FlexBox.'
