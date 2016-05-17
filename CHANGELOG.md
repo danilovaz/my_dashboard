@@ -1,3 +1,7 @@
+## 0.5.6 (05/17/2016)
+
+* Fix render dashboard
+
 ## 0.5.5 (05/17/2016)
 
 * Fix call request error
