@@ -12,7 +12,12 @@ MyDashboard.on 'ready', ->
     $('.gridster ul:first').gridster
       widget_margins: MyDashboard.widget_margins
       widget_base_dimensions: MyDashboard.widget_base_dimensions
+      autogenerate_stylesheet: true
+      min_cols: 1
+      max_cols: 6
       avoid_overlapped_widgets: !MyDashboard.customGridsterLayout
+      resize:
+        enabled: true
       draggable:
         stop: MyDashboard.showGridsterInstructions
         start: -> MyDashboard.currentWidgetPositions = MyDashboard.getWidgetPositions()
