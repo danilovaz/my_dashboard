@@ -1,3 +1,7 @@
+## 0.8.4 (05/18/2016)
+
+* Align flex box
+
 ## 0.8.3 (05/18/2016)
 
 * Removes gridster dependecy
