@@ -1,3 +1,7 @@
+## 0.8.0 (05/18/2016)
+
+* Add neat as system grid
+
 ## 0.7.2 (05/17/2016)
 
 * Fix bugs with grid
