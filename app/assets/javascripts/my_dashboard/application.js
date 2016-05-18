@@ -12,6 +12,5 @@
 //
 //= require my_dashboard
 //= require_tree .
-//= require my_dashboard.gridster
 //= require default_widgets
 //= require widgets

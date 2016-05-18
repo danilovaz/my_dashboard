@@ -11,7 +11,6 @@
 // GO AFTER THE REQUIRES BELOW.
 //
 //= require jquery
-//= require jquery.gridster
 //= require jquery.knob
 //= require jquery.leanModal.min
 //= require jquery.timeago
