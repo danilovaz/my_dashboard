@@ -24,7 +24,6 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'rufus-scheduler',     '~> 3.2'
   spec.add_dependency 'redis',                      '~> 3.2'
   spec.add_dependency 'connection_pool',    '~> 2.2'
-  spec.add_dependency 'neat',                      '~> 1.7.4'
 
   spec.add_development_dependency 'bundler', '~> 1.12.4'
   spec.add_development_dependency 'pry-rails', '~> 0.3.4'

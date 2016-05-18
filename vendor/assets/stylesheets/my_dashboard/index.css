@@ -11,6 +11,5 @@
  *= require font-awesome
  *= require jquery.gridster
  *= require widgets
- *= require configurations
  *= require_tree .
  */

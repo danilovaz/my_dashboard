@@ -110,16 +110,26 @@ h3 {
 // ----------------------------------------------------------------------------
 
 .cards {
-  @include outer-container;
+  /*margin: 20px;*/
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
   font-family: Arial;
 }
 
 .cards > .item {
-  @include span-columns(3);
+  display: flex;
+  flex-direction: column;
+  background-color: green;
+  margin: 20px;
+  flex-basis: calc(30%);
 }
 
 .cards > .item > .content {
-  @include span-columns(3 of 3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
 }
 
 .cards > .item > .content {
