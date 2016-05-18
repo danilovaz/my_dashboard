@@ -108,86 +108,43 @@ h3 {
 // ----------------------------------------------------------------------------
 // Base widget styles
 // ----------------------------------------------------------------------------
-.gridster {
-  margin: 0px auto;
+
+.cards {
+  @include outer-container;
+  font-family: Arial;
 }
 
-.icon-background {
-  pointer-events: none;
-  width: 100%!important;
-  height: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  opacity: 0.1;
-  font-size: 275px;
+.cards > .item {
+  @include span-columns(3);
+}
+
+.cards > .item > .content {
+  @include span-columns(3 of 3);
+}
+
+.cards > .item > .content {
+  color: #ffffff;
+}
+
+.cards > .item > .content > .title,
+.cards > .item > .content > .value {
+  font-weight: bold;
   text-align: center;
-  margin-top: 82px;
+  text-transform: uppercase;
 }
 
-.list-nostyle {
-  list-style: none;
-}
-
-.gridster ul {
-  list-style: none;
-}
-
-.gs_w {
-  width: 100%;
-  display: table;
-  cursor: pointer;
-}
-
-.widget {
-  text-align: center;
-  width: inherit;
-  height: inherit;
-  display: table-cell;
-  vertical-align: middle;
-}
-
-.widget.status-warning {
-  background-color: $background-warning-color-1;
-  @include animation(status-warning-background, 2s, ease, infinite);
-
-  .icon-warning-sign {
-    display: inline-block;
-  }
-
-  .title, .more-info {
-    color: $text-warning-color;
-  }
-}
-
-.widget.status-danger {
-  color: $text-danger-color;
-  background-color: $background-danger-color-1;
-  @include animation(status-danger-background, 2s, ease, infinite);
-
-  .icon-warning-sign {
-    display: inline-block;
-  }
-
-  .title, .more-info {
-    color: $text-danger-color;
-  }
-}
-
-.more-info {
+.cards > .item > .content > .info,
+.cards > .item > .content > .updated {
   font-size: 15px;
-  position: absolute;
-  bottom: 32px;
-  left: 0;
-  right: 0;
 }
 
-.updated-at {
-  font-size: 15px;
-  position: absolute;
-  bottom: 12px;
-  left: 0;
-  right: 0;
+.cards > .item > .content > .title,
+.cards > .item > .content > .percentage > .value {
+  font-size: 30px;
+}
+
+.cards > .item > .content > .value {
+  font-size: 75px;
 }
 
 #save-gridster {
@@ -240,14 +197,3 @@ h3 {
     display: none;
 }
 
-#container {
-  padding-top: 5px;
-}
-
-
-// ----------------------------------------------------------------------------
-// Clearfix
-// ----------------------------------------------------------------------------
-.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
-.clearfix:after { clear: both; }
-.clearfix { zoom: 1; }
