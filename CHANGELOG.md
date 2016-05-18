@@ -1,3 +1,7 @@
+## 0.8.1 (05/18/2016)
+
+* Removes neat dependecy
+
 ## 0.8.0 (05/18/2016)
 
 * Add neat as system grid
