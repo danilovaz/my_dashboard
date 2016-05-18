@@ -115,6 +115,7 @@ h3 {
   flex-flow: row wrap;
   justify-content: space-around;
   font-family: Arial;
+  justify-content: flex-start;
 }
 
 .cards > .item {
@@ -130,10 +131,23 @@ h3 {
   flex-direction: column;
   align-items: center;
   padding: 20px;
+  background-color: #e77d30;
 }
 
 .cards > .item > .content {
   color: #ffffff;
+}
+
+.cards > .item > .content > .percentage {
+  margin-bottom: 15px;
+}
+
+.cards > .item > .content > .percentage > .fa.fa-arrow-up {
+  color: #448400;
+}
+
+.cards > .item > .content > .percentage > .fa.fa-arrow-down {
+  color: #cf2b2b;
 }
 
 .cards > .item > .content > .title,
