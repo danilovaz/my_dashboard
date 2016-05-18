@@ -1,3 +1,9 @@
+## 0.8.3 (05/18/2016)
+
+* Removes gridster dependecy
+* Componentize widgets
+* Fix bundler version
+
 ## 0.8.1 (05/18/2016)
 
 * Removes neat dependecy
