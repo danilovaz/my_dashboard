@@ -16,7 +16,7 @@ module MyDashboard
     rescue IOError
       logger.info "[MyDashboard][#{Time.now.utc.to_s}] Stream closed"
     ensure
-      @redis.quit
+      @redis.quit unless @redis.nil?
       response.stream.close
     end
 
